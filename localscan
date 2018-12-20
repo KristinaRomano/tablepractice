@@ -1,0 +1,50 @@
+<table>
+    <thead>
+        <tr class="tableizer-firstrow">
+            <th>Title</th>
+            <th>Description </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Scanner Config</td>
+            <td>On-Access File Scan Mode:</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>Disabled - No scanning of files occurs.</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>Normal - Scans new files (exes, dlls, scripts) on the first execute of that file (determined by hash).</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>Aggressive - Scans all files on execute. The assigned reputation and policy rules apply.</td>
+        </tr>
+        <tr>
+            <td>Signature Updates</td>
+            <td>Allow Signature Updates:</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>Enabled - Enables signature updates for the scanner.</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>Disabled - Disables signature updates for the scanner.</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>Update every... - Allows you to select the interval within which the local file scanning occurs.</td>
+        </tr>
+        <tr>
+            <td>Update Servers for Internal Devices</td>
+            <td>Lets you add update servers for internal devices. You can use the default mirror infrastructure (http://updates.cdc.carbonblack.io/update) or use the provided field to enter your own mirror device URL. See Signature mirror instructions.</td>
+        </tr>
+        <tr>
+            <td>Update Servers for Offsite Devices</td>
+            <td>Lets you update servers for offsite devices. You can use the default mirror infrastructure (http://updates.cdc.carbonblack.io/update) or use the provided field to enter your own mirror device URL. See Signature mirror instructions.</td>
+        </tr>
+    </tbody>
+</table>
